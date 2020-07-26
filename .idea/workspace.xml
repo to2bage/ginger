@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80d07a51-4b8f-4b2d-8a4b-7b814df2d19b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/secret.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/error_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/redprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/bases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validators/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validators/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/auth/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/config/secret.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/config/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/forms/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/app/utils/redprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self_flask/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myapp/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/react-dev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-dev/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/react_crash_todo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_crash_todo/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/libs/error.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#133#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/werkzeug/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/settings.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/book.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/user.py" />
+        <option value="$PROJECT_DIR$/app/libs/redprint.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/__init__.py" />
+        <option value="$PROJECT_DIR$/app/libs/enums.py" />
+        <option value="$PROJECT_DIR$/app/models/bases.py" />
+        <option value="$PROJECT_DIR$/app/app.py" />
+        <option value="$PROJECT_DIR$/app/config/secret.py" />
+        <option value="$PROJECT_DIR$/app/models/user.py" />
+        <option value="$PROJECT_DIR$/app/libs/error.py" />
+        <option value="$PROJECT_DIR$/app/libs/code.md" />
+        <option value="$PROJECT_DIR$/app/validators/forms.py" />
+        <option value="$PROJECT_DIR$/app/libs/error_code.py" />
+        <option value="$PROJECT_DIR$/app/validators/base.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/client.py" />
+        <option value="$PROJECT_DIR$/ginger.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="423" />
+    <option name="y" value="23" />
+    <option name="width" value="1487" />
+    <option name="height" value="1016" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ginger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ginger" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ginger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ginger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ginger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ginger" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80d07a51-4b8f-4b2d-8a4b-7b814df2d19b" name="Default Changelist" comment="" />
+      <created>1595729341775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595729341775</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="423" y="23" width="1487" height="1016" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14051841" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62770563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/jedi/third_party/typeshed/third_party/2and3/flask/app.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="1087" column="20" selection-start-line="1087" selection-start-column="15" selection-end-line="1087" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="192" column="28" selection-start-line="191" selection-start-column="8" selection-end-line="195" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/redprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="e#117#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#112#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#133#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/secret.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#110#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/code.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/wtforms/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="230" column="7" lean-forward="true" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/error_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validators/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validators/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#110#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#124#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ginger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#119#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workon_home/py3.7/lib/python3.7/site-packages/werkzeug/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#133#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+"""
+  *@ClassName user
+  *@Description TODO
+  *@Author to2bage
+  *@Date 2020-07-26 12:19
+  *@Version 1.0
+ """
+from sqlalchemy import Column, Integer, String, SmallInteger
+from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash
+
+from app.models.bases import Base, db
+
+class User(Base):
+    id = Column(Integer, primary_key=True)
+    email = Column(String(24), unique=True, nullable=False)
+    nickname = Column(String(24), unique=True)
+    auth = Column(SmallInteger, default=1)
+    _password = Column("password", String(100))
+
+    @property
+    def password(self):
+        return self._password
+
+    @password.setter
+    def password(self, plain_text):
+        self._password = generate_password_hash(plain_text)
+
+    # 给User Model添加: 用email注册的方法
+    @staticmethod
+    def register_by_email(nickname, account, secret):
+        with db.auto_commit():
+            user = User()
+            user.nickname = nickname
+            user.email = account
+            user.password = secret
+
+            db.session.add(user)
